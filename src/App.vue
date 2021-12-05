@@ -12,7 +12,6 @@
   <Audience/>
   </div>
   </div>
-  <footer>Тестовое задание для Аксон.</footer>
 </div>
 </template>
 
@@ -68,22 +67,13 @@ export default {
   display: block;
   box-sizing: border-box;
 }
-footer{
-  height: 2rem;
-  display: flex;
-  background: linear-gradient(90deg, #0099dc 0%, #9f1c6e 62.5%, #ff0803 100%);
-  align-items: center;
-  min-width: 75rem;
-  color: white;
-  justify-content: center;
-  font-size: 0.75rem;
-}
 .content {
-  min-height: 89.8vh;
+  min-height: calc(100vh - 4rem);
   margin-bottom: 1rem;
   width: 75rem;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
 }
 .catalog__app {
   border: 1px solid #c7cad1;
@@ -91,8 +81,6 @@ footer{
   height: 2.5rem;
   border-radius: 4px;
   margin-top: 1rem;
-  /* margin-left: auto;
-  margin-right: auto; */
   display: flex;
   align-items: center;
   cursor: pointer;
